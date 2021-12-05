@@ -6,6 +6,8 @@
 - Focus: natural language processing - CNN, LSTM, transformers (BERT), Tensorflow
 - Teammate: Prathyusha Charagondla
 
+    Multi-label, multi-class emotion classification is an underdeveloped area of NLP. We take the XED data set, which contains 17,530 movie subtitles labeled one or more of Plutchik's eight emotions, and use CNN, LSTM, and BERT models for multi-label classification. In our experiments, we explored the BERT without the CLS token, averaging the vectors from the 'last_hidden_state', and the RoBERTa model. Our RoBERTa model achieves the best micro f1-score of 0.548, slightly surpassing the original paper's 0.536. We explore the differences between the model predictions and the true labels and discuss potential future steps for improving multi-label emotion classification.
+
 ### [Does clickbait really lead to more clicks?](https://github.com/ziwei-z/w241-final-project)
 
 - Focus: causal inference, survey design, a/b testing
