@@ -1,4 +1,4 @@
-## Ziwei Zhao Projects
+## Recent Projects
 
 ### [Multi-label Emotion Classification using Movie Subtitles](https://github.com/ziwei-z/w266-project)
 
