@@ -13,6 +13,12 @@ Using the XED data set, which 17,530 movie subtitles labeled one or more of Plut
 - Teammates: Hsuanyi Cheng, Patrick Kim, Kayla Wopschall
 
 We collected data and used regression analysis to study the effect of "clickbait" imagery and headline on news article clickthrough rates. We compared the impacts of changing headlines and images in both on Facebook and by designing a survey to directly measure the effects of these “clickbait features”. We tested articles related to travel during Covid and the drought in the West, which show evidence of increased clickthrough rates on Facebook when both text and image are altered. The survey tests a travel article and an article about streaming video and movie theater success, and results suggest a strong correlation between altering image and text individually, and altering both, in respondents interest in the article. We also tested for hetereogenous treatment effects, which showed people over 45 to be more likely to click through to a clickbait article in the Facebook experiment. 
+
+### [20-Category Image Classification using Computer Vision Techniques](https://github.com/W281/final-project-ziwei-z)
+
+- Focus: computer vision - image processing, feature extraction
+
+I processed 1501 images of 20 different categories such as airplanes, gorillas, and zebras by cropping and resizing. I then extracted image features including Harris Corners, pixel values surrounding the center of the Harris Corners, and histogram of oriented gradients. I also created a five-level Gaussian pyramid, took the last blurred image of the stack and performed k-means clustering to create a three-color image of the original image. PCA was performed on the features for visualization and for modeling. I experimented with logistic, k-nearest neighbors and SVM models on different combinations of the features and achieved 38.9% accuracy for the validation data set. 
     
 ### [Facial keypoints detection](https://github.com/ziwei-z/facial_detection)
 
