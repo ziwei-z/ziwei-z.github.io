@@ -7,6 +7,13 @@
 
 Using the XED data set, which 17,530 movie subtitles labeled one or more of Plutchik's eight emotions, we designed CNN, LSTM, and BERT models for multi-label classification. In our experiments, we explored using BERT without the CLS token, instead averaging the vectors from the 'last_hidden_state'. Our RoBERTa model achieves the best micro f1-score of 0.548, surpassing the original paper's 0.536. We explored the differences between the model predictions and the true labels and discuss potential future steps for improving multi-label emotion classification.
 
+### [Cyrano: Improving Couples' Communication Through Empathy](https://joemirza5.wixsite.com/cyrano)
+
+- Focus: natural language processing - generative models
+- Teammates: Jared Dec, Joe Mirza
+
+Created a working version of a conversational AI that coaches couples to respond more empathetically to one another in text exchanges. It does so by suggesting a more empathetic response than the one a user is contemplating sending.
+
 ### [Does clickbait really lead to more clicks?](https://github.com/ziwei-z/w241-final-project)
 
 - Focus: experiments, causal inference, survey design, a/b testing
